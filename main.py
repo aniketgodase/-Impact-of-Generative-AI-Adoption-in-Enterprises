@@ -32,7 +32,7 @@ df['Sentiment_Score'] = df['Employee Sentiment'].apply(lambda x: sia.polarity_sc
 df['Sentiment_Label'] = df['Sentiment_Score'].apply(
     lambda x: 'Positive' if x > 0.2 else 'Negative' if x < -0.2 else 'Neutral'
 )
-# Visualization 3 - Sentiment Summary
+# Visualization
 plt.figure(figsize=(6, 4))
 df['Sentiment_Label'].value_counts().plot(kind='bar', color=['green', 'gray', 'red'], title='Employee Sentiment Categories')
 plt.ylabel('Count')
