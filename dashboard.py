@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 st.set_page_config(page_title='GenAI Dashboard', layout='centered')
-st.title('📊 GenAI Workforce Impact Dashboard')
+st.title('GenAI Workforce Impact Dashboard')
 try:
     df = pd.read_csv('outputs/final_dataset.csv')
     model = joblib.load('outputs/model.pkl')
@@ -29,7 +29,7 @@ with col3:
 if st.button("Predict"):
     try:
         prediction = model.predict([[impacted, roles, hours]])[0]
-        st.success(f"📈 Predicted Productivity Change: {prediction:.2f}%")
+        st.success(f" Predicted Productivity Change: {prediction:.2f}%")
     except Exception as e:
         st.error(f"Prediction error: {e}")
 st.subheader("4. Cluster Visualization")
