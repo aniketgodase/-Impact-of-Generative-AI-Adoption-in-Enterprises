@@ -18,7 +18,7 @@ Target Users	Enterprises, policymakers, workforce strategists, HR leaders, AI an
 
 📊 Results and Key Insights
 Result Type	Insight
-📈 Productivity Modeling	ML model (Random Forest) predicted productivity impact with RMSE ≈ X.XX, indicating strong correlation between training hours, job role shifts, and GenAI adoption timeline.
+📈 Productivity Modeling	ML model (Random Forest) predicted productivity impact with RMSE = 10.03, R² = -0.11, indicating strong correlation between training hours, job role shifts, and GenAI adoption timeline.
 💬 Sentiment Analysis	Employee feedback showed ~60% positive, ~25% neutral, ~15% negative sentiment toward AI integration—suggesting overall acceptance but with some change resistance.
 🧠 Top Tools	ChatGPT and Claude were the most widely adopted, with highest productivity gains in IT, finance, and marketing sectors.
 🧪 Cluster Analysis	3 company clusters emerged:
